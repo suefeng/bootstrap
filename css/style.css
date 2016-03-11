@@ -1,0 +1,63 @@
+/*---------------------------------------------- 
+  Here are the extra styles that are outside 
+  of the scope of the default bootstrap styles 
+------------------------------------------------*/
+/* main containers */
+html, body { height: 100%; overflow-x: hidden; }
+#wrap { min-height: 100%; height: auto !important; height: 100%; }
+.span9 { margin: 0 auto -60px; float: none; }
+#push, #footer { height: 60px; }
+#footer { background-color: #f5f5f5; text-align: center; }
+#footer .container { width: auto; max-width: 680px; }
+#footer .container .credit { margin: 20px 0; }
+
+/* banner */
+.banner { clear:both; overflow: hidden; width: 100%; text-align: center; }
+#logo{font-weight: normal;text-transform:uppercase;font-family:'FranchiseRegular','HelveticaNeue-Bold','League Gothic','Impact',sans-serif;font-size:115px;color:#c44032;text-shadow:#863027 -4px 4px 0;margin:30px 0 30px;line-height: 120px;}
+#logo span{display:inline-block;position:relative;letter-spacing:-1px;-webkit-transition:all 0.2s ease-out;}
+#logo span:hover{top:3px}
+.char1, .char2 { color:#e36b23; text-shadow:#9b4d1f -4px 4px 0; }
+.char3, .char4 { color:#e6c92e;text-shadow:#9c8b26 -4px 4px 0; }
+.char5, .char6, .char7 { color:#5da028;text-shadow:#427021 -4px 4px 0; }
+.char8, .char9 { color:#4584be;text-shadow:#2f597f -4px 4px 0; }
+.char10, .char11, .char12, .char13 { color:#7073cf;text-shadow:#4a4d88 -4px 4px 0; }
+#logo .char1{ -webkit-transform:rotate(-3deg)}
+#logo .char3{top:-1px;-webkit-transform:rotate(2deg)}
+#logo .char4{top:-7px}
+#logo .char6{top:-7px;-webkit-transform:rotate(2deg)}
+#logo .char7{}
+#logo .char8{top:1px;-webkit-transform:rotate(-2deg)}
+#logo .char9{-webkit-transform:rotate(2deg)}
+#logo .char10{top:-1px;}
+#logo .char11{top:2px;-webkit-transform:rotate(-3deg)}
+#logo .char12{}
+
+/* misc tweaks */
+.btn-navbar { margin: 5px 0 !important; }
+#myCarousel { margin: 20px 0 !important; }
+.content { margin: 0 0 20px; }
+.span3 { text-align: center; }
+.img-circle { background: #ddd; width: 140px; height: 140px; display: inline-block; }
+.tooltip-demo { margin: 20px 0; }
+textarea { width: 75.2% !important; }
+
+/* media queries */
+@media (max-width: 1199px) {
+	#logo { font-size: 95px; line-height: 100px; }
+}
+@media (max-width: 980px) {
+	#logo { font-size: 80px; line-height: 75px; }
+}
+@media (max-width: 767px) {
+  #logo { font-size: 60px; line-height: 65px; }
+  #footer { margin-left: -20px; margin-right: -20px; padding-left: 20px; padding-right: 20px; height: 80px; }
+}
+@media (max-width: 743px) {
+  #logo { font-size: 70px; line-height: 75px; }
+}
+@media (max-width: 454px) {
+  #logo { font-size: 50px; line-height: 55px; }
+}
+@media (max-width: 320px) {
+  #logo { font-size: 30px; line-height: 35px; }
+}

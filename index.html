@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title>Bootstrap and Lettering Demo</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link href="css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+	<link href="css/default.css" rel="stylesheet" media="screen">
+	<link href="css/style.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+	<div class="suefeng-demo-navi">
+		<a href="http://suefeng.net/?p=554"><strong>&laquo; Previous Demo: </strong>Newsletters</a>
+		<span class="right">
+			<a href="http://suefeng.net/?p=603"><strong>Back to the Bootstrap Article</strong></a>
+		</span>
+	</div>
+	<div class="span9" id="wrap">
+		<header class="banner">
+			<h1 id="logo">DigitalDesign</h1>
+		</header>
+		<div class="navbar">
+		  <div class="navbar-inner">
+			<div class="container">
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-inverse-collapse">
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				</a>
+				<div class="nav-collapse collapse navbar-inverse-collapse">
+				  <ul class="nav">
+				    <li class="active"><a href="#" data-toggle="tooltip" title="" data-original-title="Sweet home">Home</a></li>
+				    <li><a href="#about" data-toggle="tooltip" title="" data-original-title="The person behind the site">About</a></li>
+					<li class="dropdown">
+				      <a href="#" class="dropdown-toggle" data-toggle="dropdown tooltip" title="" data-original-title="Various art work">Folio <b class="caret"></b></a>
+				      <ul class="dropdown-menu">
+				          <li><a href="#">Sketches</a></li>
+				          <li><a href="#">Paintings</a></li>
+				          <li><a href="#">Sculptures</a></li>
+				          <li class="divider"></li>
+				          <li class="nav-header">Gallery Pieces</li>
+				          <li><a href="#">Link Gallery</a></li>
+				          <li><a href="#">Park Gallery</a></li>
+				      </ul>
+				    </li>
+				    <li><a href="#contact" data-toggle="tooltip modal" data-target="#contact" title="" data-original-title="Get in touch">Contact</a></li>
+				  </ul>
+				  <ul class="nav pull-right">
+				    <li> 
+						<form class="navbar-search pull-left" action="#">
+						  <input type="text" class="search-query span2" placeholder="Search">
+					    </form>
+				    </li>
+				  </ul>
+				</div><!-- /.nav-collapse -->
+              </div><!-- /.container -->
+          </div><!-- /.navbar-inner -->
+        </div><!-- /.navbar -->
+		<div class="content">
+			<h1 id="about">Welcome</h1>
+			<div class="row">
+				<div class="span4">
+					<p>Welcome to this Bootstrap demo. Please enjoy your stay! This layout features the following <a href="http://twitter.github.io/bootstrap/" target="_blank">Bootstrap</a> elements: 
+					<ul>
+						<li>tooltips</li>
+						<li>navbar</li>
+						<li>searchbar</li>
+						<li>form elements</li>
+						<li>dropdown</li>
+						<li>carousel</li>
+						<li>scaffolds</li>
+						<li>buttons</li>
+						<li>media queries</li>
+						<li>icon glyphs</li>
+						<li>blockquote</li>
+						<li>modal</li>
+					</ul>
+					<p>It also uses <a href="http://letteringjs.com/" target="_blank">Lettering.js</a> for the banner.</p>
+				</div><!-- /.span4 -->
+
+				<div class="span4">
+					<p>Please note that this demo is only one page. Also, the search and contact form don't work. They are just styled using Bootstrap css. The purpose of Bootstrap is to provide a style guide with classes that are pre-made so that you don't have to write as much CSS yourself. You don't have to think of your own classes as the Bootstrap classes are well thought out. The documentation is easy to follow as each feature has a visual example and description on how to use it.</p>
+					<blockquote>Here's an example of a blockquote that was styled by bootstrap.css. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, voluptates, eaque natus quo veritatis architecto laboriosam quis cum nihil voluptatibus omnis soluta eos ex maxime perspiciatis! Ab, quo minus nostrum?</blockquote>
+				</div><!-- /.span4 -->
+			</div><!-- /.row -->
+			<p class="text-right"><a href="#top"><i class="icon-circle-arrow-up"></i> Up</a></p>
+			<div id="carousel-gallery" class="carousel slide">
+				<ol class="carousel-indicators">
+				  <li data-target="#carousel-gallery" data-slide-to="0" class="active"></li>
+				  <li data-target="#carousel-gallery" data-slide-to="1" class=""></li>
+				  <li data-target="#carousel-gallery" data-slide-to="2" class=""></li>
+				</ol>
+				<div class="carousel-inner">
+				  <div class="item active">
+				    <img src="img/bootstrap-mdo-sfmoma-01.jpg" alt="">
+				    <div class="carousel-caption">
+				      <h4>First painting</h4>
+				      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+				    </div>
+				  </div>
+				  <div class="item">
+				    <img src="img/bootstrap-mdo-sfmoma-02.jpg" alt="">
+				    <div class="carousel-caption">
+				      <h4>Second painting</h4>
+				      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+				    </div>
+				  </div>
+				  <div class="item">
+				    <img src="img/bootstrap-mdo-sfmoma-03.jpg" alt="">
+				    <div class="carousel-caption">
+				      <h4>Third painting</h4>
+				      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+				    </div>
+				  </div>
+				</div>
+				<a class="left carousel-control" href="#carousel-gallery" data-slide="prev">‹</a>
+				<a class="right carousel-control" href="#carousel-gallery" data-slide="next">›</a>
+            </div>
+			<div class="alert alert-warning">
+				<i class="icon-info-sign"></i> <strong>Heads up!</strong>
+				When implementing this carousel, remove the images we have provided and replace them with your own. These were found on the <a href="http://twitter.github.io/bootstrap/" target="_blank">Bootstrap site</a>.
+			</div>
+			<div class="container marketing">
+				<!-- Three columns of text below the carousel -->
+				<div class="row">
+					<div class="span3">
+					  <div class="img-circle"></div>
+					  <h2>About the Artist</h2>
+					  <p>Here's a short intro about the artist. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+					  <p><a class="btn btn-danger" href="#">View details »</a></p>
+					</div><!-- /.span3 -->
+					<div class="span3">
+					  <div class="img-circle"></div>
+					  <h2>About Art</h2>
+					  <p>Art relates to everyone. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+					  <p><a class="btn btn-success" href="#">View details »</a></p>
+					</div><!-- /.span3 -->
+					<div class="span3">
+					  <div class="img-circle"></div>
+					  <h2>About Galleries</h2>
+					  <p>These galleries are restocked once a month, so be sure to check back. Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+					  <p><a class="btn btn-info" href="#">View details »</a></p>
+					</div><!-- /.span3 -->
+				</div><!-- /.row -->
+			</div><!-- /.marketing -->
+			
+			<div class="modal hide fade">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h3>Comment</h3>
+			  </div>
+			  <div class="modal-body">
+				<form>
+				  <fieldset>
+					<input type="text" placeholder="Name"><br>
+					<input type="text" placeholder="Email"><br>
+					<input type="text" placeholder="URL"><br>
+					<textarea rows="5" cols="30" placeholder="Comment"></textarea>
+					<p><button type="submit" class="btn">Submit</button></p>
+				  </fieldset>
+				</form>
+			  </div>
+			</div>
+		</div><!-- /.content -->
+		<div id="push"></div>
+	</div><!-- /#wrap -->
+	<div id="footer">
+	  <div class="container">
+        <p class="muted credit">Bootstrap and Lettering Example by <a href="http://suefeng.net">Sue Feng</a>. <a href="#top"><i class="icon-circle-arrow-up"></i> Up</a></p>
+      </div>
+	</div>
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="js/jquery.lettering.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/bootstrap-carousel.js"></script>
+	<script src="js/bootstrap-tooltip.js"></script>
+	<script src="js/bootstrap-modal.js"></script>
+	<script type="text/javascript">
+	  $("#logo").lettering();
+	  $('.carousel').carousel();
+	  $('[data-toggle~="tooltip"]').tooltip({ container: 'body' });
+	  $('[data-toggle~="dropdown"]').dropdown({ container: 'body' });
+	  $(document).on('click.modal.data-api', '[data-toggle!="modal"][data-toggle~="modal"]', function (e) {
+		var $this = $(this)
+			, href = $this.attr('href')
+			, $target = $($this.attr('data-target') || (href && href.replace(/.*(?=#[^\s]+$)/, ''))) //strip for ie7
+			, option = $target.data('modal') ? 'toggle' : $.extend({ remote:!/#/.test(href) && href }, $target.data(), $this.data());
+
+		e.preventDefault();
+
+		$target
+			.modal(option)
+			.one('hide', function () {
+				$this.focus()
+			})
+		});
+	</script>
+  </body>
+</html>
